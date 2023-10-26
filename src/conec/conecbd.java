@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class conecbd {
 
-    Connection con;
+    public Connection con;
 
     public conecbd() {
         try {
@@ -23,6 +23,7 @@ public class conecbd {
         conecbd cn = new conecbd();
         ResultSet rs;
         Statement st;
+      
         try {
             st = cn.con.createStatement(); // Usar cn para acceder a la conexión
             rs = st.executeQuery("SELECT * FROM Sala");

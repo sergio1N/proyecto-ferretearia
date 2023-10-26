@@ -164,6 +164,7 @@ public class inicio extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(255, 0, 0)); // Cambia el fondo a rojo cuando el cursor entra.
         estrenos es = new estrenos();
         es.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton2btnCambiar
      private void jButton2MouseEntered(java.awt.event.MouseEvent evt) {
         jButton2.setBackground(new java.awt.Color(0, 255, 0)); // Cambia el fondo a rojo cuando el cursor entra.
@@ -176,8 +177,9 @@ public class inicio extends javax.swing.JFrame {
     private void jButton3btnCambiar(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3btnCambiar
         // TODO add your handling code here:
          jButton3.setBackground(new java.awt.Color(255, 0, 0)); // Cambia el fondo a rojo cuando el cursor entra.
-        estrenos es = new estrenos();
-        es.setVisible(true);
+        clasicos cl = new clasicos();
+        cl.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton3btnCambiar
      private void jButton3MouseEntered(java.awt.event.MouseEvent evt) {
         jButton3.setBackground(new java.awt.Color(0, 255, 0)); // Cambia el fondo a rojo cuando el cursor entra.
